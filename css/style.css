@@ -229,6 +229,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-features .services-padding {
   padding: 7em 0;
+  margin: 0px 100px;
 }
 #fh5co-features .feature-left {
   margin-bottom: 40px;
@@ -286,7 +287,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-blog,
 #fh5co-pricing,
 #fh5co-contact {
-  padding: 7em 0;
+  padding: 3em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -563,11 +564,19 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 18px;
 }
 .timeline > li.timeline-unverted {
-  text-align: right;
+  text-align: justify;
 }
 @media screen and (max-width: 768px) {
   .timeline > li.timeline-unverted {
-    text-align: left;
+    text-align: justify;
+  }
+}
+.timeline > li.timeline-inverted {
+  text-align: justify;
+}
+@media screen and (max-width: 768px) {
+  .timeline > li.timeline-inverted {
+    text-align: justify;
   }
 }
 .timeline > li.timeline-inverted > .timeline-panel {
@@ -588,14 +597,19 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .timeline-title {
   margin-top: 0;
+  color:#FF9000;
+}
+
+.timeline-title-grey {
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .company {
   display: block;
   margin-bottom: 20px;
   font-size: 16px;
-  font-weight: normal;
-  color: #bfbfbf;
+  font-weight: bold;
+  color: black;
 }
 
 .timeline-body > p,
@@ -994,6 +1008,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-footer p:last-child {
   margin-bottom: 0;
+  text-align: justify;
 }
 
 .contact-info {
